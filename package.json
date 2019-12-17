@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node lib/server.js"
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd"
   },
   "babel": {
     "presets": [
@@ -30,14 +30,20 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-react": "^7.17.0",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.25.1",
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
