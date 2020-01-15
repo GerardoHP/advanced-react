@@ -50,5 +50,17 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "webpack": "^4.25.1"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "NODE_PATH": "./lib",
+      "PORT": 80
+    }
   }
 }
