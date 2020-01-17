@@ -14,6 +14,11 @@ ShallowWrapper {
             },
           }
     }
+    strores={
+        Object {
+            "lookupAuthor": [Function],
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -31,20 +36,20 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Article
-          actions={undefined}
           article={
                     Object {
                               "id": "a",
                             }
           }
+          store={undefined}
 />,
         <Article
-          actions={undefined}
           article={
                     Object {
                               "id": "b",
                             }
           }
+          store={undefined}
 />,
       ],
     },
@@ -55,10 +60,10 @@ ShallowWrapper {
         "key": "a",
         "nodeType": "function",
         "props": Object {
-          "actions": undefined,
           "article": Object {
             "id": "a",
           },
+          "store": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -69,10 +74,10 @@ ShallowWrapper {
         "key": "b",
         "nodeType": "function",
         "props": Object {
-          "actions": undefined,
           "article": Object {
             "id": "b",
           },
+          "store": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -89,20 +94,20 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Article
-            actions={undefined}
             article={
                         Object {
                                     "id": "a",
                                   }
             }
+            store={undefined}
 />,
           <Article
-            actions={undefined}
             article={
                         Object {
                                     "id": "b",
                                   }
             }
+            store={undefined}
 />,
         ],
       },
@@ -113,10 +118,10 @@ ShallowWrapper {
           "key": "a",
           "nodeType": "function",
           "props": Object {
-            "actions": undefined,
             "article": Object {
               "id": "a",
             },
+            "store": undefined,
           },
           "ref": null,
           "rendered": null,
@@ -127,10 +132,10 @@ ShallowWrapper {
           "key": "b",
           "nodeType": "function",
           "props": Object {
-            "actions": undefined,
             "article": Object {
               "id": "b",
             },
+            "store": undefined,
           },
           "ref": null,
           "rendered": null,
