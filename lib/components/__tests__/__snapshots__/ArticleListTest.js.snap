@@ -14,11 +14,6 @@ ShallowWrapper {
             },
           }
     }
-    strores={
-        Object {
-            "lookupAuthor": [Function],
-          }
-    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -35,7 +30,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Article
+        <ArticleContainer
           article={
                     Object {
                               "id": "a",
@@ -43,7 +38,7 @@ ShallowWrapper {
           }
           store={undefined}
 />,
-        <Article
+        <ArticleContainer
           article={
                     Object {
                               "id": "b",
@@ -58,7 +53,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": "a",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "id": "a",
@@ -72,7 +67,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": "b",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "id": "b",
@@ -93,7 +88,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Article
+          <ArticleContainer
             article={
                         Object {
                                     "id": "a",
@@ -101,7 +96,7 @@ ShallowWrapper {
             }
             store={undefined}
 />,
-          <Article
+          <ArticleContainer
             article={
                         Object {
                                     "id": "b",
@@ -116,7 +111,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "a",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "id": "a",
@@ -130,7 +125,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "b",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "id": "b",
